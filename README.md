@@ -3,7 +3,7 @@ Project for IBM 2017 data importer for chemical databases and analytics utilizin
 
 ## Instructions:
 
-**Data is not included for confidentiality**
+*Data is not included for confidentiality*
 
 ### To import into KNIME
 1. Download the workflow file of interest "*.knwf"
@@ -12,8 +12,14 @@ Project for IBM 2017 data importer for chemical databases and analytics utilizin
 
 ### CSV Importer
 
-*To do*
+1. Match "List Files" configuration to file naming scheme. 
+1. Configure "PostgreSQL Connector" to your database or replace the node accordingly.
+
+*Will continue...*
 
 ### SMILE to InChiKey
 
-*To do*
+1. Ensure configuration is set to database column format.
+	* It will throw an error otherwise!
+
+*Will continue...*

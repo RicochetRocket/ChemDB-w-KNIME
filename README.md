@@ -10,16 +10,26 @@ Project for IBM 2017 data importer for chemical databases and analytics utilizin
 1. In KNIME File>"Import KNIME Workflow">Select "*.knwf"
 1. Confirm import.
 
-### CSV Importer
+### CSV Importer 
+___
 
 1. Match "List Files" configuration to file naming scheme. 
 1. Configure "PostgreSQL Connector" to your database or replace the node accordingly.
 
-*Will continue...*
+	*Will continue...*
 
 ### SMILE to InChiKey
+___
 
 1. Ensure configuration is set to database column format.
 	* It will throw an error otherwise!
 
-*Will continue...*
+	*Will continue...*
+
+### Simple Substructure Filter
+___
+
+1. Change SMARTS input to desired filter.
+	* Currently filters aromatics out
+
+	*Will continue* 

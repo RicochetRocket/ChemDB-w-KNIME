@@ -37,3 +37,8 @@ SELECT agent_instancename, COUNT(*) FROM relationships_w_smiles
 
 -- Returns all unique pairs of targets and agent_instancename
 SELECT DISTINCT target_canonicalname, agent_instancename FROM relationships_w_smiles; 
+
+-- Returns all unique agents for a given target and specified agonistic/antagonistic char
+SELECT DISTINCT agent_instancename FROM relationships_w_smiles 
+	WHERE target_canonicalname='FOCAL MYOSITIDES' 	-- Target in question
+	AND relcanonicalname='RegulationPositive';		-- 'RegulationPositive' for agonistic 'RegulationNegative' for antagonistic

@@ -43,3 +43,4 @@ SELECT DISTINCT agent_instancename FROM relationships_w_smiles
 	WHERE target_canonicalname='FOCAL MYOSITIDES' 	-- Target in question
 	AND relcanonicalname='RegulationPositive';		-- 'RegulationPositive' for agonistic 'RegulationNegative' for antagonistic
 
+-- This will no longer be updated except for function creation
